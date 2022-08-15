@@ -12,6 +12,7 @@ const testObject = {
     b: 'b',
   },
   d: new Date(),
+  arr: [1, 'a', new Date()],
 }
 
 const clonedNum = clone(testNum);
@@ -19,7 +20,6 @@ const clonedString = clone(testString);
 const clonedObject = clone(testObject);
 
 console.log(`cloneNum: ${clonedNum}, cloneString: ${clonedString}`);
-console.log('cloneObj: ', clonedObject);
 
 clonedObject.o.a = 'aaa';
 console.log('cloneObj: ', clonedObject, 'obj: ', testObject);

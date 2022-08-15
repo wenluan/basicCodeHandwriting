@@ -1,0 +1,34 @@
+<!-- position 绝对定位 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>position</title>
+  <style>
+    .basic-div {
+      position: relative;
+      background-color: red;
+      width: 30px;
+      height: 20px;
+      border: solid 20px green;
+      margin: 20px;
+      padding: 20px;
+    }
+    .absolute-div {
+      position: absolute;
+      background-color: blue;
+      top: 0;
+      left: 0;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="basic-div">
+    basic
+    <div class="absolute-div">absolute</div>
+  </div>
+</body>
+</html>
