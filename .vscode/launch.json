@@ -9,7 +9,7 @@
             "request": "launch",
             "name": "Launch Program",
             "runtimeExecutable": "/usr/local/bin/node",
-            "program": "${workspaceFolder}/exist.ts",
+            "program": "${workspaceFolder}/new.ts",
             "preLaunchTask": "tsc: build - tsconfig.json",
             "outFiles": ["${workspaceFolder}/out/**/*.js"]
         }
