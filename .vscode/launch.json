@@ -9,7 +9,7 @@
             "request": "launch",
             "name": "Launch Program",
             "runtimeExecutable": "/usr/local/bin/node",
-            "program": "${workspaceFolder}/out/new.js",
+            "program": "${workspaceFolder}/out/interview2.js",
             "preLaunchTask": "tsc: build - tsconfig.json",
             "outFiles": ["${workspaceFolder}/out/**/*.js"]
         }
